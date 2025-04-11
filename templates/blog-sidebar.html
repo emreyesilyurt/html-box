@@ -1,0 +1,338 @@
+{% extends "Base/header-dark.html" %}
+
+
+{% block Hero %}
+
+<!-- Hero Start -->
+<section class="bg-half-170 d-table w-100" style="background: url('/static/images/hero/pages.jpg') center;">
+    <div class="bg-overlay bg-gradient-overlay"></div>
+    <div class="container">
+        <div class="row mt-5 justify-content-center">
+            <div class="col-12">
+                <div class="title-heading text-center">
+                    <h5 class="heading fw-semibold mb-0 sub-heading text-white title-dark">Latest Articles</h5>
+                </div>
+            </div><!--end col-->
+        </div><!--end row-->
+
+        <div class="position-middle-bottom">
+            <nav aria-label="breadcrumb" class="d-block">
+                <ul class="breadcrumb breadcrumb-muted mb-0 p-0">
+                    <li class="breadcrumb-item"><a href="{% url 'App:index' %}">Enterly  </a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Blogs</li>
+                </ul>
+            </nav>
+        </div>
+    </div><!--end container-->
+</section><!--end section-->
+<div class="position-relative">
+    <div class="shape overflow-hidden text-white">
+        <svg viewBox="0 0 2880 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M0 48H1437.5H2880V0H2160C1442.5 52 720 0 720 0H0V48Z" fill="currentColor"></path>
+        </svg>
+    </div>
+</div>
+<!-- Hero End -->
+ 
+<!-- Start -->
+<section class="section">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-md-7">
+                <div class="row">
+                    <div class="col-lg-6 col-12">
+                        <div class="blog bg-white position-relative overflow-hidden shadow rounded p-4">
+                            <div class="position-relative">
+                                <div class="blog-image position-relative overflow-hidden rounded shadow">
+                                    <img src="/static/images/blog/1.jpg" class="img-fluid" alt="">
+                                </div>
+
+                                <div class="position-absolute top-100 start-0 translate-middle-y ms-2">
+                                    <a href="" class="badge bg-primary">Enterly  </a>
+                                </div>
+                            </div>
+
+                            <div class="pt-4">
+                                <a href="blog-detail.html" class="text-dark title h5">Utilizing mobile technology in the field</a>
+
+                                <p class="text-muted my-2">Success needs hard work. Don't listen to these 'get rich quick' schemes.</p>
+
+                                <a href="blog-detail.html" class="text-dark read-more">Read More <i class="mdi mdi-chevron-right align-middle"></i></a>
+                            </div>
+                        </div>
+                    </div><!--end col-->
+
+                    <div class="col-lg-6 col-12 mt-4 mt-lg-0 pt-2 pt-lg-0">
+                        <div class="blog bg-white position-relative overflow-hidden shadow rounded p-4">
+                            <div class="position-relative">
+                                <div class="blog-image position-relative overflow-hidden rounded shadow">
+                                    <img src="/static/images/blog/2.jpg" class="img-fluid" alt="">
+                                </div>
+
+                                <div class="position-absolute top-100 start-0 translate-middle-y ms-2">
+                                    <a href="" class="badge bg-primary">Enterly  </a>
+                                </div>
+                            </div>
+
+                            <div class="pt-4">
+                                <a href="blog-detail.html" class="text-dark title h5">Success Story: Businessman in Harlem</a>
+
+                                <p class="text-muted my-2">Success needs hard work. Don't listen to these 'get rich quick' schemes.</p>
+
+                                <a href="blog-detail.html" class="text-dark read-more">Read More <i class="mdi mdi-chevron-right align-middle"></i></a>
+                            </div>
+                        </div>
+                    </div><!--end col-->
+
+                    <div class="col-lg-6 col-12 mt-4 pt-2">
+                        <div class="blog bg-white position-relative overflow-hidden shadow rounded p-4">
+                            <div class="position-relative">
+                                <div class="blog-image position-relative overflow-hidden rounded shadow">
+                                    <img src="/static/images/blog/3.jpg" class="img-fluid" alt="">
+                                </div>
+
+                                <div class="position-absolute top-100 start-0 translate-middle-y ms-2">
+                                    <a href="" class="badge bg-primary">Enterly  </a>
+                                </div>
+                            </div>
+
+                            <div class="pt-4">
+                                <a href="blog-detail.html" class="text-dark title h5">How Does Marketing Automation Help Lead</a>
+
+                                <p class="text-muted my-2">Success needs hard work. Don't listen to these 'get rich quick' schemes.</p>
+
+                                <a href="blog-detail.html" class="text-dark read-more">Read More <i class="mdi mdi-chevron-right align-middle"></i></a>
+                            </div>
+                        </div>
+                    </div><!--end col-->
+
+                    <div class="col-lg-6 col-12 mt-4 pt-2">
+                        <div class="blog bg-white position-relative overflow-hidden shadow rounded p-4">
+                            <div class="position-relative">
+                                <div class="blog-image position-relative overflow-hidden rounded shadow">
+                                    <img src="/static/images/blog/4.jpg" class="img-fluid" alt="">
+                                </div>
+
+                                <div class="position-absolute top-100 start-0 translate-middle-y ms-2">
+                                    <a href="" class="badge bg-primary">Enterly  </a>
+                                </div>
+                            </div>
+
+                            <div class="pt-4">
+                                <a href="blog-detail.html" class="text-dark title h5">Working from home? Let's get started.</a>
+
+                                <p class="text-muted my-2">Success needs hard work. Don't listen to these 'get rich quick' schemes.</p>
+
+                                <a href="blog-detail.html" class="text-dark read-more">Read More <i class="mdi mdi-chevron-right align-middle"></i></a>
+                            </div>
+                        </div>
+                    </div><!--end col-->
+
+                    <div class="col-lg-6 col-12 mt-4 pt-2">
+                        <div class="blog bg-white position-relative overflow-hidden shadow rounded p-4">
+                            <div class="position-relative">
+                                <div class="blog-image position-relative overflow-hidden rounded shadow">
+                                    <img src="/static/images/blog/5.jpg" class="img-fluid" alt="">
+                                </div>
+
+                                <div class="position-absolute top-100 start-0 translate-middle-y ms-2">
+                                    <a href="" class="badge bg-primary">Enterly  </a>
+                                </div>
+                            </div>
+
+                            <div class="pt-4">
+                                <a href="blog-detail.html" class="text-dark title h5">The Ultimate Success Formula - How?</a>
+
+                                <p class="text-muted my-2">Success needs hard work. Don't listen to these 'get rich quick' schemes.</p>
+
+                                <a href="blog-detail.html" class="text-dark read-more">Read More <i class="mdi mdi-chevron-right align-middle"></i></a>
+                            </div>
+                        </div>
+                    </div><!--end col-->
+
+                    <div class="col-lg-6 col-12 mt-4 pt-2">
+                        <div class="blog bg-white position-relative overflow-hidden shadow rounded p-4">
+                            <div class="position-relative">
+                                <div class="blog-image position-relative overflow-hidden rounded shadow">
+                                    <img src="/static/images/blog/6.jpg" class="img-fluid" alt="">
+                                </div>
+
+                                <div class="position-absolute top-100 start-0 translate-middle-y ms-2">
+                                    <a href="" class="badge bg-primary">Enterly  </a>
+                                </div>
+                            </div>
+
+                            <div class="pt-4">
+                                <a href="blog-detail.html" class="text-dark title h5">The Major Differences Between SEO & Local SEO</a>
+
+                                <p class="text-muted my-2">Success needs hard work. Don't listen to these 'get rich quick' schemes.</p>
+
+                                <a href="blog-detail.html" class="text-dark read-more">Read More <i class="mdi mdi-chevron-right align-middle"></i></a>
+                            </div>
+                        </div>
+                    </div><!--end col-->
+
+                    <div class="col-lg-6 col-12 mt-4 pt-2">
+                        <div class="blog bg-white position-relative overflow-hidden shadow rounded p-4">
+                            <div class="position-relative">
+                                <div class="blog-image position-relative overflow-hidden rounded shadow">
+                                    <img src="/static/images/blog/7.jpg" class="img-fluid" alt="">
+                                </div>
+
+                                <div class="position-absolute top-100 start-0 translate-middle-y ms-2">
+                                    <a href="" class="badge bg-primary">Enterly  </a>
+                                </div>
+                            </div>
+
+                            <div class="pt-4">
+                                <a href="blog-detail.html" class="text-dark title h5">Building intelligent transportation systems</a>
+
+                                <p class="text-muted my-2">Success needs hard work. Don't listen to these 'get rich quick' schemes.</p>
+
+                                <a href="blog-detail.html" class="text-dark read-more">Read More <i class="mdi mdi-chevron-right align-middle"></i></a>
+                            </div>
+                        </div>
+                    </div><!--end col-->
+
+                    <div class="col-lg-6 col-12 mt-4 pt-2">
+                        <div class="blog bg-white position-relative overflow-hidden shadow rounded p-4">
+                            <div class="position-relative">
+                                <div class="blog-image position-relative overflow-hidden rounded shadow">
+                                    <img src="/static/images/blog/8.jpg" class="img-fluid" alt="">
+                                </div>
+
+                                <div class="position-absolute top-100 start-0 translate-middle-y ms-2">
+                                    <a href="" class="badge bg-primary">Enterly  </a>
+                                </div>
+                            </div>
+
+                            <div class="pt-4">
+                                <a href="blog-detail.html" class="text-dark title h5">12 Questions to Ask Before Hiring a SEO Agency</a>
+
+                                <p class="text-muted my-2">Success needs hard work. Don't listen to these 'get rich quick' schemes.</p>
+
+                                <a href="blog-detail.html" class="text-dark read-more">Read More <i class="mdi mdi-chevron-right align-middle"></i></a>
+                            </div>
+                        </div>
+                    </div><!--end col-->
+
+                    <div class="col-lg-6 col-12 mt-4 pt-2">
+                        <div class="blog bg-white position-relative overflow-hidden shadow rounded p-4">
+                            <div class="position-relative">
+                                <div class="blog-image position-relative overflow-hidden rounded shadow">
+                                    <img src="/static/images/blog/9.jpg" class="img-fluid" alt="">
+                                </div>
+
+                                <div class="position-absolute top-100 start-0 translate-middle-y ms-2">
+                                    <a href="" class="badge bg-primary">Enterly  </a>
+                                </div>
+                            </div>
+
+                            <div class="pt-4">
+                                <a href="blog-detail.html" class="text-dark title h5">How a Social Media Audit Can Help You</a>
+
+                                <p class="text-muted my-2">Success needs hard work. Don't listen to these 'get rich quick' schemes.</p>
+
+                                <a href="blog-detail.html" class="text-dark read-more">Read More <i class="mdi mdi-chevron-right align-middle"></i></a>
+                            </div>
+                        </div>
+                    </div><!--end col-->
+                </div><!--end row-->
+
+                <div class="row">
+                    <div class="col-12 mt-4 pt-2">
+                        <ul class="pagination justify-content-center mb-0">
+                            <li class="page-item">
+                                <a class="page-link" href="#" aria-label="Previous">
+                                    <span aria-hidden="true"><i class="mdi mdi-chevron-left align-middle fs-6"></i></span>
+                                </a>
+                            </li>
+                            <li class="page-item"><a class="page-link" href="#">1</a></li>
+                            <li class="page-item active"><a class="page-link" href="#">2</a></li>
+                            <li class="page-item"><a class="page-link" href="#">3</a></li>
+                            <li class="page-item">
+                                <a class="page-link" href="#" aria-label="Next">
+                                    <span aria-hidden="true"><i class="mdi mdi-chevron-right align-middle fs-6"></i></span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div><!--end col-->
+                </div><!--end row-->
+            </div><!--end col-->
+
+            <!-- START SIDEBAR -->
+            <div class="col-lg-4 col-md-5 col-12 mt-4 pt-2 mt-md-0 pt-md-0">
+                <div class="card bg-white p-4 rounded shadow sticky-bar">
+                    <!-- SEARCH -->
+                    <div>
+                        <h6 class="pt-2 pb-2 bg-light rounded text-center">Search</h6>
+
+                        <div class="search-bar mt-4">
+                            <div id="itemSearch" class="menu-search mb-0">
+                                <form role="search" method="get" id="searchItemform" class="searchform">
+                                    <input type="text" class="form-control rounded border" name="s" id="searchItem" placeholder="Search...">
+                                    <input type="submit" id="searchItemsubmit" value="Search">
+                                    <i data-feather="search" class="icons"></i>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- SEARCH -->
+
+                    <!-- RECENT POST -->
+                    <div class="mt-4 pt-2">
+                        <h6 class="pt-2 pb-2 bg-light rounded text-center">Recent Post</h6>
+                        <div class="mt-4">
+                            <div class="blog blog-primary d-flex align-items-center">
+                                <img src="/static/images/blog/1.jpg" class="avatar avatar-small rounded" style="width: auto;" alt="">
+                                <div class="flex-1 ms-3">
+                                    <a href="" class="d-block title text-dark fw-medium">Consultant Business</a>
+                                    <span class="text-muted small">15th June 2024</span>
+                                </div>
+                            </div>
+
+                            <div class="blog blog-primary d-flex align-items-center mt-3">
+                                <img src="/static/images/blog/2.jpg" class="avatar avatar-small rounded" style="width: auto;" alt="">
+                                <div class="flex-1 ms-3">
+                                    <a href="" class="d-block title text-dark fw-medium">Grow Your Business</a>
+                                    <span class="text-muted small">15th June 2024</span>
+                                </div>
+                            </div>
+                            
+                            <div class="blog blog-primary d-flex align-items-center mt-3">
+                                <img src="/static/images/blog/3.jpg" class="avatar avatar-small rounded" style="width: auto;" alt="">
+                                <div class="flex-1 ms-3">
+                                    <a href="" class="d-block title text-dark fw-medium">Look On The Glorious Balance</a>
+                                    <span class="text-muted small">15th June 2024</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- RECENT POST -->
+
+                    <!-- TAG CLOUDS -->
+                    <div class="mt-4 pt-2 text-center">
+                        <h6 class="pt-2 pb-2 bg-light rounded">Tags Cloud</h6>
+                        <ul class="tagcloud list-unstyled mt-4">
+                            <li class="d-inline-flex m-1"><a href="javascript:void(0)" class="rounded fw-medium text-dark py-1 px-2">Business</a></li>
+                            <li class="d-inline-flex m-1"><a href="javascript:void(0)" class="rounded fw-medium text-dark py-1 px-2">Finance</a></li>
+                            <li class="d-inline-flex m-1"><a href="javascript:void(0)" class="rounded fw-medium text-dark py-1 px-2">Marketing</a></li>
+                            <li class="d-inline-flex m-1"><a href="javascript:void(0)" class="rounded fw-medium text-dark py-1 px-2">Fashion</a></li>
+                            <li class="d-inline-flex m-1"><a href="javascript:void(0)" class="rounded fw-medium text-dark py-1 px-2">Bride</a></li>
+                            <li class="d-inline-flex m-1"><a href="javascript:void(0)" class="rounded fw-medium text-dark py-1 px-2">Lifestyle</a></li>
+                            <li class="d-inline-flex m-1"><a href="javascript:void(0)" class="rounded fw-medium text-dark py-1 px-2">Travel</a></li>
+                            <li class="d-inline-flex m-1"><a href="javascript:void(0)" class="rounded fw-medium text-dark py-1 px-2">Beauty</a></li>
+                            <li class="d-inline-flex m-1"><a href="javascript:void(0)" class="rounded fw-medium text-dark py-1 px-2">Video</a></li>
+                            <li class="d-inline-flex m-1"><a href="javascript:void(0)" class="rounded fw-medium text-dark py-1 px-2">Audio</a></li>
+                        </ul>
+                    </div>
+                    <!-- TAG CLOUDS -->
+                </div>
+            </div><!--end col-->
+            <!-- END SIDEBAR -->
+        </div><!--end row-->
+    </div><!--end container-->
+</section><!--end section-->
+<!-- End -->
+
+{% endblock Hero %}
